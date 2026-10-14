@@ -1,0 +1,16 @@
+[project]
+name = "lazarus"
+version = "0.0.1"
+description = "Altsoftware in lesbaren, offenen Code zurueckverwandeln"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Mark Wernsdorfer" }]
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
